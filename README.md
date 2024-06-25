@@ -1,6 +1,20 @@
 # Grading-the-Graders
 This Python project analyzes how UBC professors' contract statuses affect class averages. It includes large amounts of data cleaning (PDF>WORD>CSV), visualization, and fixed effects regression analysis, aligning financial and teaching data to explore grading patterns.
 
+**Abstract of the paper**
+This study investigates the causal relationship between professors’ contract status
+and their class averages at the University of British Columbia (ubc, 2023b) over
+the academic years 2020, 2021, and 2022. It utilizes a dataset with 20,639 classes
+taught by 2,546 different professors; this paper uses a fixed effects regression to control
+for variables such as individual professors and specific courses. The aim is to
+determine whether professors in the final year of their contracts have an incentive
+to inflate grades, potentially influenced by tenure reviews or contract renewals. The
+findings show a statistically significant increase in class averages during the last year
+of a professor’s contract, indicating a potential moral hazard with grading practices.
+While the study gives insights into university grading practices, its scope is limited
+by the available data spanning only three years. Future research could explore
+different datasets and alternative methodologies.
+
 **Data Collection:**
 Manual financial data extraction from UBC reports, formatted with professor names and financial details.
 Word Document Processing:
@@ -72,16 +86,3 @@ Employed graphviz to create a Directed Acyclic Graph (DAG) illustrating the anal
 The DAG visually represented the relationships and potential confounding factors in the study.
 
 
-**Abstract of the paper**
-This study investigates the causal relationship between professors’ contract status
-and their class averages at the University of British Columbia (ubc, 2023b) over
-the academic years 2020, 2021, and 2022. It utilizes a dataset with 20,639 classes
-taught by 2,546 different professors; this paper uses a fixed effects regression to control
-for variables such as individual professors and specific courses. The aim is to
-determine whether professors in the final year of their contracts have an incentive
-to inflate grades, potentially influenced by tenure reviews or contract renewals. The
-findings show a statistically significant increase in class averages during the last year
-of a professor’s contract, indicating a potential moral hazard with grading practices.
-While the study gives insights into university grading practices, its scope is limited
-by the available data spanning only three years. Future research could explore
-different datasets and alternative methodologies.
